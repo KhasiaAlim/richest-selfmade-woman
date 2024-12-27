@@ -1,27 +1,38 @@
 import './App.css';
 import MenuAppBar from './components/navbar';
 import Header from './components/header';
-import { DisplaySettings } from '@mui/icons-material';
+import Table from './components/table';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div>
-      <MenuAppBar style={{ position: 'fixed'}}/>
-      <Header />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <MenuAppBar />
+      <div style={{ marginTop: '65px' }}>
+        <Header />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Table />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Footer />
+      </div>
     </div>
   );
 }
